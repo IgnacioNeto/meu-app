@@ -1,12 +1,13 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import logo from "./destaque.jpg"; // É necessario importar a img e depois chama-la como obj
 
 import Artigo from "../Artigo";
 
 function Conteudo() {
   return (
     <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src="destaque.jpg" />
+      <Card.Img variant="top" src={logo} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
