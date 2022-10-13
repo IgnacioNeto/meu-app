@@ -36,14 +36,14 @@ const Conteudo = () => {
           dignissimos itaque illum et!
         </p>
 
-        {artigos.map((artigo) => (
+        {artigos.map(({id, titulo, subtitulo, curso, texto}) => (
           <Artigo
-            key={artigo.id}
-            titulo={artigo.titulo}
-            subtitulo={artigo.subtitulo}
-            curso={artigo.curso}
+            key={id}
+            titulo={titulo}
+            subtitulo={subtitulo}
+            curso={curso}
           >
-            {artigo.texto}
+            {texto}
           </Artigo>
         ))}
       </section>
