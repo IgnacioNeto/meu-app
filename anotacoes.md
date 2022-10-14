@@ -26,3 +26,7 @@ colaterais (useEffect).
 Função que retorna uma variável com o valor do estado (state) e uma função
 que permite atualizar o valor dessa veriável. Podemos ter vários useState em
 nosso componentes para gerenciar estados e dados diferentes.
+
+## Trabalhando com rotas no React para o carregamento de componentes a partir de links
+
+### Instalação da biblioteca react-router-dom (versão 5)
